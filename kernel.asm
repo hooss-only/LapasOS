@@ -30,7 +30,7 @@ printf_loop:
 	inc edi
 	jmp printf_loop
 
-prinf_end:
+printf_end:
 	pop eax
 	ret ;pop the stack
 
